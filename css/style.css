@@ -1,0 +1,104 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    background-image: url(../img/sky.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5%;
+}
+main > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 60%;
+    text-align: center;
+
+}
+h1{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    flex-direction: column; 
+    text-align: center;
+    margin-top: 5%;
+    padding: 5%;
+    padding-bottom: 8%;
+    width: 40%;
+    min-width: 300px;
+    background-color: rgba(145, 172, 196, 0.192);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    color:#f5f5f5;
+    box-shadow: 2px 10px 50px #f5f5f5, 
+    2px 10px 50px #8173d1;
+}
+
+input{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 60%;
+    height: 25px;
+    min-width: 70px;
+    border-radius: 10px;
+}
+label{
+    text-align: start;
+}
+
+div img{
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 10px ;
+}
+
+.botoncillo{  
+    width: 100px;
+    height: 30px;
+    min-width: 100px;
+    background-color: rgb(195, 212, 226);
+    color: rgb(31, 5, 54);    
+}
+
+.botoncillo:active{  
+    width: 100px;
+    height: 30px;
+    min-width: 100px;
+    background-color: rgb(27, 233, 240);
+    color: rgb(31, 5, 54);    
+}
+
+#resultadoImc{
+    text-align: center;
+    z-index: 1000;
+    color:#579ef0;
+    border-radius: 10px;
+}
+
+p{
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 1.5px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 3.75% ;
+    color: #cceff8;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(240, 248, 255, 0.274);
+}
